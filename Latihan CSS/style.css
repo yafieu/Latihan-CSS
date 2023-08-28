@@ -1,0 +1,95 @@
+/* Gaya untuk judul h1 */
+h1 {
+    color: lightblue;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Gaya untuk paragraf p */
+p {
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Gaya untuk daftar li */
+li {
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+/* Gaya untuk tautan a */
+a:link {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+/* Gaya untuk tombol .button */
+.button {
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+/* Gaya untuk tabel */
+table {
+    border-collapse: collapse;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+/* Gaya untuk sel dalam tabel */
+td:first-child {
+    width: 50px;
+}
+
+td:nth-child(2) {
+    width: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+thead td {
+    background-color: aquamarine;
+}
+
+tbody td:nth-child(even) {
+    background-color: #81CFE0;
+    color: #fff;
+}
+
+tbody td:nth-child(even):hover {
+    background-color: orange;
+    color: #fff;
+}
